@@ -2,15 +2,15 @@
   --dark_green: #003d2b;
   --green_dark: #045725;
   --green: #025f44;
-  --light_green: #ADE6BB;
-  --yellow: #FFDC64;
+  --light_green: #ade6bb;
+  --yellow: #ffdc64;
   --dark_gray: #333333;
   --grey: #6a6e6d;
   --light_gray: #929393;
   --beige: #e4c2b1;
   --light_beige: #e6c1b2;
   --light: #efefef;
-  --whitesmoke: #F2F2F2;
+  --whitesmoke: #f2f2f2;
 }
 
 * {
@@ -27,7 +27,6 @@ ul {
   list-style: none;
 }
 /* ------ Header -------- */
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -94,7 +93,7 @@ ul {
 }
 .dropdown li {
   clear: both;
-  width:18rem;
+  width: 18rem;
   padding: 1rem 2rem;
 }
 .dropdown li:hover {
@@ -150,6 +149,7 @@ ul {
   }
   .nav-menu.active {
     left: 0;
+    top: 7rem;
   }
   .nav-item {
     margin: 0;
@@ -398,7 +398,6 @@ ul {
   margin: 1.5rem 0;
 }
 
-
 @media (max-width: 1200px) {
   #tariff-section {
     flex-direction: column;
@@ -410,13 +409,13 @@ ul {
   background-color: var(--light);
   padding: 5rem;
 }
-.covers-wrapper ul li{
+.covers-wrapper ul li {
   display: flex;
   align-items: center;
   position: relative;
   border-radius: 0.8rem;
 }
-.covers-wrapper ul li:hover{
+.covers-wrapper ul li:hover {
   background-color: white;
 }
 .main {
@@ -434,7 +433,7 @@ ul {
   margin: 2rem;
 }
 .img-wrapper img {
-  width:100%;
+  width: 100%;
   border-radius: 0.8rem;
 }
 .covers-item-title {
@@ -446,7 +445,7 @@ ul {
   font-weight: 500;
   color: var(--grey);
 }
-.right-side-content{
+.right-side-content {
   flex-basis: 5%;
 }
 .right-side-content i {
@@ -464,10 +463,10 @@ ul {
   line-height: 3.5rem;
   text-align: center;
 }
-.covers-wrapper ul li:hover > .main{
+.covers-wrapper ul li:hover > .main {
   flex: 50%;
 }
-.covers-wrapper ul li:hover > .extension{
+.covers-wrapper ul li:hover > .extension {
   display: block;
   flex: 50%;
 }
@@ -506,7 +505,8 @@ ul {
   border-radius: 0.8rem;
   padding: 1.5rem 1rem;
 }
-.covered-content-item:hover, .not-covered-content-item:hover {
+.covered-content-item:hover,
+.not-covered-content-item:hover {
   background-color: white;
 }
 .covered-content-item .left {
@@ -519,7 +519,8 @@ ul {
   align-self: center;
   font-size: 1.4rem;
 }
-.covered-content-title, .not-covered-content-title {
+.covered-content-title,
+.not-covered-content-title {
   font-size: 5rem;
   font-weight: 700;
   margin: 1.5rem 0;
@@ -542,7 +543,7 @@ ul {
 .not-covered-content-item i {
   font-size: 1.4rem;
   font-weight: 400;
-  margin-right: 1.5rem; 
+  margin-right: 1.5rem;
   align-self: center;
 }
 @media (max-width: 1200px) {
@@ -572,7 +573,7 @@ ul {
 }
 .rating-container a:hover {
   color: var(--grey);
-} 
+}
 .rating-title {
   font-size: 3rem;
   font-weight: 500;
@@ -591,7 +592,7 @@ ul {
 
 /* -------- Customer Voices -------- */
 #customers-voice-section {
-  display:flex;
+  display: flex;
   padding: 8rem;
   background-color: var(--whitesmoke);
 }
@@ -617,7 +618,7 @@ ul {
   background-color: var(--light_green);
   padding: 0 2rem;
 }
-.customers-img-wrapper img{
+.customers-img-wrapper img {
   width: 100%;
 }
 .right-side-container {
@@ -642,10 +643,12 @@ ul {
 .border-div small {
   font-size: 1.6rem;
   font-weight: 500;
+  line-height: 3.5rem;
 }
 .customer-stars i {
   color: var(--yellow);
   font-size: 3.2rem;
+  margin: 2rem 0;
 }
 .border-div p {
   font-size: 2.2rem;
@@ -697,17 +700,17 @@ ul {
   font-size: 2.2rem;
   font-weight: 600;
   border-radius: 0.8rem;
-  padding:2rem;
+  padding: 2rem;
 }
 .faq-content ul li:hover {
   background-color: white;
 }
 .faq-content ul li .left-part {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 .faq-content i {
-margin:0  2rem;
+  margin: 0 2rem;
 }
 
 /* ------- Download ------  */
@@ -719,10 +722,8 @@ margin:0  2rem;
   opacity: 0.6;
 }
 .download-content {
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  padding: 8rem;
+  text-align: center;
 }
 .download-section-title {
   font-size: 6.5rem;
@@ -731,16 +732,116 @@ margin:0  2rem;
 .download-content p {
   font-size: 3.2rem;
   font-weight: 500;
+  margin: 3rem 0;
 }
-.img-btn-container {
-
-}
-.img-btn-wrapper {
+.img-btn {
   display: inline-block;
-  width: 12rem;
+  width: 18rem;
   height: 5rem;
   margin: 3rem;
+  border-radius: 0.8rem;
 }
-.img-btn-wrapper img {
-  width: 100%;
+.app-store {
+  background-image: url("./images/app_store.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.google-play {
+  background-image: url("./images/google.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* ------- Footer ------ */
+footer {
+  padding: 5rem;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 1200px) {
+  .footer-row {
+    flex-direction: column;
+  }
+}
+.footer-item-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  color: var(--dark_green);
+}
+footer ul li a {
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+.footer-img-btn {
+  display: inline-block;
+  width: 16rem;
+  height: 5rem;
+  border-radius: 0.8rem;
+}
+.footer-img-btn:hover {
+  opacity: 0.6;
+}
+.footer-app-store {
+  background-image: url("./images/app_store.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+}
+.footer-google-play {
+  background-image: url("./images/google.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer ul li i {
+  text-align: center;
+  font-size: 2.2rem;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  padding-top: 0.8rem;
+  margin: 0.5rem;
+  background-color: black;
+  text-decoration: none;
+}
+footer ul li i:hover {
+  color: black;
+  background-color: white;
+}
+footer .extra {
+  padding: 3rem;
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+}
+footer .footer-extra-title {
+  font-weight: 500;
+}
+.footer-extra-description {
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  footer .attribution span {
+    display: block;
+  }
+}
+footer .attribution {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 5rem;
+}
+footer .attribution span {
+  margin: 0 3rem;
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
 }
