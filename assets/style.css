@@ -339,6 +339,7 @@ ul {
   font-size: 5rem;
   font-weight: 700;
   padding: 2rem 0;
+  text-transform: uppercase;
 }
 .tariff-content p {
   font-size: 2.2rem;
@@ -369,6 +370,7 @@ ul {
 .benefits-title {
   font-size: 5rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .benefits-container ul li {
   font-size: 2.2rem;
@@ -568,6 +570,9 @@ ul {
   font-size: 2.5rem;
   font-weight: normal;
 }
+.rating-container a:hover {
+  color: var(--grey);
+} 
 .rating-title {
   font-size: 3rem;
   font-weight: 500;
@@ -588,6 +593,7 @@ ul {
 #customers-voice-section {
   display:flex;
   padding: 8rem;
+  background-color: var(--whitesmoke);
 }
 .left-side-container {
   flex-basis: 60%;
@@ -596,6 +602,7 @@ ul {
 .customers-voice-left-title {
   font-size: 5.3rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .left-side-container p {
   font-size: 2.2rem;
@@ -665,4 +672,75 @@ ul {
   #customers-voice-section {
     flex-direction: column;
   }
+}
+
+/* -------- FAQ -------- */
+#faq-section {
+  background-color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+.faq-content {
+  padding: 3rem;
+}
+.faq-section-title {
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.faq-content ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.2rem;
+  font-weight: 600;
+  border-radius: 0.8rem;
+  padding:2rem;
+}
+.faq-content ul li:hover {
+  background-color: white;
+}
+.faq-content ul li .left-part {
+display: flex;
+align-items: center;
+}
+.faq-content i {
+margin:0  2rem;
+}
+
+/* ------- Download ------  */
+#download-section {
+  background-color: var(--beige);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+.download-content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.download-section-title {
+  font-size: 6.5rem;
+  font-weight: 700;
+}
+.download-content p {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.img-btn-container {
+
+}
+.img-btn-wrapper {
+  display: inline-block;
+  width: 12rem;
+  height: 5rem;
+  margin: 3rem;
+}
+.img-btn-wrapper img {
+  width: 100%;
 }
